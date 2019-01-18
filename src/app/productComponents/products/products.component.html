@@ -1,0 +1,20 @@
+<p>
+  PRODUCT LIST 
+</p>
+
+<ul>
+  <li *ngFor="let p of products">
+      <product-item (click)="onProductSelected(p)" [product]="p"></product-item>
+  </li>
+</ul>
+
+<div *ngIf="selectedProduct">
+<p>
+  ProductName 
+  <input [(ngModel)]="selectedProduct.name"/>
+</p>
+<p>
+  Price 
+  <input [(ngModel)]="selectedProduct.price" />
+</p>
+</div>
