@@ -2,7 +2,7 @@ import {Product} from './product';
 
 
 
-export const PRODUCTLIST: Product[] =  [
+export var PRODUCTLIST: Product[] =  [
     {id:1, name:'Samsung Mobile', price:10000},
     {id:2, name:'LG Mobile', price:12000},
     {id:3, name:'XIAOMI Mobile', price:8934},
@@ -10,4 +10,6 @@ export const PRODUCTLIST: Product[] =  [
     {id:5, name:'Nokia Mobile', price:6000},
 
 ]
+
+
 

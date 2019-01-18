@@ -1,3 +1,4 @@
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -6,13 +7,15 @@ import { ProductsComponent } from './productComponents/products/products.compone
 import {FormsModule} from '@angular/forms';
 import { ProductItemComponent } from './productComponents/product-item/product-item.component'
 import { CommonModule } from '@angular/common';
+import { ProductAddComponent } from './productComponents/product-add/product-add.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
-    ProductItemComponent
+    ProductItemComponent,
+    ProductAddComponent
     
   ],
   imports: [

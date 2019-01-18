@@ -18,3 +18,8 @@
   <input [(ngModel)]="selectedProduct.price" />
 </p>
 </div>
+
+<div>
+  <h4>Add new Product</h4>
+  <product-add (onAdd)="onProductAdded($event)"></product-add>
+</div>
